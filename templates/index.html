@@ -1,0 +1,31 @@
+{% extends "root.html" %}
+
+{% block css %}
+<link rel="stylesheet" href="{{url_for('static', filename = 'css/index.css') }}">
+{% endblock %}
+
+
+{% block leftCol %}
+
+<h1>wart warbles</h1>
+<div id="writeWarble">
+    <form method="post" action="{{ url_for('index')}}">
+        <textarea name="msg" id="writeWarbleTa" placeholder = "write your warble here"></textarea>
+        <input type="submit" value="submit">
+    </form>
+</div>
+<a href="/profile">go to your profile</a>
+{% endblock %}
+
+{% block rightCol %}
+<div id="feed">
+    {% for warble in warbleList %}
+    <div class="warble">
+        <h3>{{warble['author']}}</h3>
+        <p class="warbleContent">
+            {{warble['msg']}}
+        </p>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

@@ -2,9 +2,9 @@
 An example used in Harvey Mudd's intro CS course to teach students basic webdev + Flask
 
 ## About
-[http://wartwarbles-hmccsstudio.pythonanywhere.com/](Link to project, hosted on PythonAnywhere)
+[Link to project, hosted on PythonAnywhere](http://wartwarbles-hmccsstudio.pythonanywhere.com/)
 
-Harvey Mudd's introductory CS course, CS5, delves into several topics; one of which being webdev. As the class is taught in Python, the webdev unit strives to incorporate it as much as possible. Thus, students are taught the basics of Flask, a Python framework for web applications. In this [https://docs.google.com/document/d/1ukmYzm6tHRluQIlludkgt8ZjVnJqTIbMpNzlmBvxRhE/edit?usp=sharing](tutorial), students are guided through a simple exercise to build their own webapp. 
+Harvey Mudd's introductory CS course, CS5, delves into several topics; one of which being webdev. As the class is taught in Python, the webdev unit strives to incorporate it as much as possible. Thus, students are taught the basics of Flask, a Python framework for web applications. In this [tutorial](https://docs.google.com/document/d/1ukmYzm6tHRluQIlludkgt8ZjVnJqTIbMpNzlmBvxRhE/edit?usp=sharing), students are guided through a simple exercise to build their own webapp. 
 
 Specifically, they learn how to:
 * create a virtual environment
